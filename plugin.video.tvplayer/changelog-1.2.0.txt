@@ -1,0 +1,10 @@
+v1.2.0
+Support for WPT channel
+v1.1.0
+Changed to tv app API
+v1.0.1
+Allow to use inputstream.adaptive only for DRM content
+Fix Genre grouping
+Fix sorting option
+v1.0.0
+Initial Release

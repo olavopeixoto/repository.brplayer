@@ -1,0 +1,13 @@
+branches:
+  only:
+    - master
+language: python
+python: "2.7"
+install:
+  - pip install gitpython
+before_script:
+  - rm -R -- *(/)
+script: python create_repository.py https://github.com/olavopeixoto/plugin.video.brplay.git
+after_success: ./commit.sh
+notifications:
+  email: false

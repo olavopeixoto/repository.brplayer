@@ -1,17 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.brplay" version="0.0.5" name="BR play" provider-name="brplayer">
+	<addon id="plugin.video.brplay" version="1.0.6" name="BR play" provider-name="brplayer">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests" version="0.13.2"/>
 		<import addon="script.module.buggalo" version="1.1.6"/>
+		<import addon="script.module.pytz" version="2014.2"/>
+<!--		<import addon="script.module.pil" version="5.1.0"/>-->
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Globo Play, Globosat Play and Premium Channels on Kodi</summary>
-		<description>Brazilian video streaming services for subscribers</description>
+		<summary lang="en_GB">Brazilian video streaming services for subscribers</summary>
+		<summary lang="pt_BR">Serviços brasileiros de streaming de video para assinantes</summary>
+		<description lang="en_GB">Globoplay, Canais Globo, Telecine, Oi Play, Now Online, TNT Play and premium channels on Kodi</description>
+		<description lang="pt_BR">Globoplay, Canais Globo, Telecine, Oi Play, Now Online, TNT Play entre outros serviços no Kodi</description>
+		<disclaimer lang="en_GB">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+		<disclaimer lang="pt_BR">Partes deste addon podem não ser legais no seu país de residência, por favor verifique as leis locais antes de instalar.</disclaimer>
 		<platform>all</platform>
 		<license>GPL3</license>
 		<source>https://github.com/olavopeixoto/plugin.video.brplay</source>
@@ -22,6 +27,15 @@
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Newly release addon</news>
+		<news>
+1.0.6
+- Fix globoplay navigation issues for some content types
+1.0.5
+- Fix live channels player issues
+- Implemented optional channel authorization check to allow hide channels not playable
+- Changes to live channels display information
+1.0.4
+- Implemented Now Online search
+        </news>
 	</extension>
 </addon>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<addon id="plugin.video.brplay" version="1.0.6" name="BR play" provider-name="brplayer">
+	<addon id="plugin.video.brplay" version="1.0.7" name="BR play" provider-name="brplayer">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
+<!--		<import addon="xbmc.python" version="2.1.0" />-->
 		<import addon="script.module.requests" version="0.13.2"/>
 		<import addon="script.module.buggalo" version="1.1.6"/>
 		<import addon="script.module.pytz" version="2014.2"/>
@@ -23,11 +23,15 @@
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
+			<clearlogo>clearlogo.png</clearlogo>
+			<banner>banner.jpg</banner>
 			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+1.0.7
+- Support for Globoplay mais canais ao vivo
 1.0.6
 - Fix globoplay navigation issues for some content types
 1.0.5

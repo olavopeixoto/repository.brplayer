@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.brplay" name="BR play" provider-name="brplayer" version="1.0.11">
+<addons><addon id="plugin.video.brplay" name="BR play" provider-name="brplayer" version="1.0.12">
 	<requires>
 
 		<import addon="script.module.requests" version="0.13.2" />
@@ -30,6 +30,8 @@
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+1.0.12
+- Removed python locale dependency to avoid translations issues
 1.0.11
 - Implemented video excerpts for Globoplay
 - Fix Globo affiliated without epg were being hidden

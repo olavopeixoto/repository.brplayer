@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.brplay" name="BR play" provider-name="brplayer" version="1.0.12">
+<addons><addon id="plugin.video.brplay" name="BR play" provider-name="brplayer" version="1.0.14">
 	<requires>
 
 		<import addon="script.module.requests" version="0.13.2" />
@@ -30,6 +30,14 @@
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+1.0.14
+- Support for live channels without epg (BBB)
+- Fixed duplicated Premiere Vod Channel
+- Restored live thumbnails for Canais Globo
+- Updated Canais Globo (Globosat) broadcast epg api and player to support geofenced channels
+1.0.13
+- Fix SBT live channel
+- Fix Canais Globo live DRM issue
 1.0.12
 - Removed python locale dependency to avoid translations issues
 1.0.11

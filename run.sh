@@ -1,1 +1,1 @@
-python create_repository.py https://github.com/olavopeixoto/plugin.video.brplay.git https://github.com/olavopeixoto/script.brguide.git https://github.com/olavopeixoto/plugin.video.tvplayer.git
+python create_repository.py https://github.com/olavopeixoto/plugin.video.brplay.git https://github.com/olavopeixoto/plugin.video.brplay.git#Matrix https://github.com/olavopeixoto/script.brguide.git https://github.com/olavopeixoto/plugin.video.tvplayer.git

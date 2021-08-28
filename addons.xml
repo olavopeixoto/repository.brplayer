@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.brplay" name="BR play" provider-name="brplayer" version="1.0.23">
+<addons><addon id="plugin.video.brplay" name="BR play" provider-name="brplayer" version="1.0.24">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="0.13.2" />§
@@ -30,6 +30,10 @@
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+1.0.24
+- Fix Globoplay EPG crashing when title object is empty
+- Fix login retry when token expired (globoplay changed the status code from 500 to 498)
+- Fix SBT playback
 1.0.23
 - Fix Globoplay excerpts nos showing
 1.0.22
@@ -78,7 +82,7 @@
 - Implemented Now Online search
         </news>
 	</extension>
-</addon><addon id="plugin.video.brplay" name="BR play" provider-name="brplayer" version="2.0.1">
+</addon><addon id="plugin.video.brplay" name="BR play" provider-name="brplayer" version="2.0.2">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="0.13.2" />
@@ -110,6 +114,11 @@
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+2.0.2
+- Changed Now TV lineup to show only channels included in your plan
+- Fix Globoplay EPG crashing when title object is empty
+- Fix login retry when token expired (globoplay changed the status code from 500 to 498)
+- Fix SBT playback
 2.0.1
 - Fix Globoplay excerpts not showing
 2.0.0

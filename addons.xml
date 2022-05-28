@@ -82,7 +82,7 @@
 - Implemented Now Online search
         </news>
 	</extension>
-</addon><addon id="plugin.video.brplay" name="BR play" provider-name="brplayer" version="2.2.1">
+</addon><addon id="plugin.video.brplay" name="BR play" provider-name="brplayer" version="2.2.2">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="0.13.2" />
@@ -114,6 +114,8 @@
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
+2.2.2
+- fixed globoplay and globosat geofencing playback
 2.2.1
 - added inputstream support for VIX TV
 - fixed VIX TV "more items" icon / poster

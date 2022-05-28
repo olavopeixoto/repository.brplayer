@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-	<addon id="plugin.video.brplay" version="2.2.1" name="BR play" provider-name="brplayer">
+	<addon id="plugin.video.brplay" version="1.0.24" name="BR play" provider-name="brplayer">
 	<requires>
-		<import addon="xbmc.python" version="3.0.0" />
-		<import addon="script.module.requests" version="0.13.2"/>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" version="0.13.2"/>§
 		<import addon="script.module.buggalo" version="1.1.6"/>
 		<import addon="script.module.pytz" version="2014.2"/>
-		<import addon="script.module.beautifulsoup4" version="4.6.3.1"/>
 <!--		<import addon="script.module.pil" version="5.1.0"/>-->
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
@@ -14,8 +13,8 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Brazilian video streaming services for subscribers</summary>
 		<summary lang="pt_BR">Serviços brasileiros de streaming de video para assinantes</summary>
-		<description lang="en_GB">Globoplay, Canais Globo, Telecine, Oi Play, Now Online, TNT Play, Pluto TV, VIX TV and premium channels on Kodi</description>
-		<description lang="pt_BR">Globoplay, Canais Globo, Telecine, Oi Play, Now Online, TNT Play, Pluto TV, VIX TV entre outros serviços no Kodi</description>
+		<description lang="en_GB">Globoplay, Canais Globo, Telecine, Oi Play, Now Online, TNT Play, Pluto TV and premium channels on Kodi</description>
+		<description lang="pt_BR">Globoplay, Canais Globo, Telecine, Oi Play, Now Online, TNT Play, Pluto TV entre outros serviços no Kodi</description>
 		<disclaimer lang="en_GB">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
 		<disclaimer lang="pt_BR">Partes deste addon podem não ser legais no seu país de residência, por favor verifique as leis locais antes de instalar.</disclaimer>
 		<platform>all</platform>
@@ -31,31 +30,15 @@
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>
-2.2.1
-- added inputstream support for VIX TV
-- fixed VIX TV "more items" icon / poster
-2.2.0
-- Added support for VIX TV Brazil
-2.1.0
-- Removed Telecine since it has been moved to Globoplay
-- Removed Sexyhot
-- Bug fixes on Globoplay authentication and authorization
-- Added Globoplay region selection (Brazil, USA, Portugal and Europe)
-- Added More Globo Affiliates ('Joao Pessoa', 'Aracaju', 'Teresina', 'Campo Grande', 'Cuiaba', 'Palmas')
-- Fixed search feature with improved search result and better display
-- Fixed SBT playback
-2.0.3
-- fix cache module decoding issue
-2.0.2
-- Changed Now TV lineup to show only channels included in your plan
+1.0.24
 - Fix Globoplay EPG crashing when title object is empty
 - Fix login retry when token expired (globoplay changed the status code from 500 to 498)
 - Fix SBT playback
-2.0.1
-- Fix Globoplay excerpts not showing
-2.0.0
-- Suppoprt for Kodi 20 (Matrix)
-- Dropped Support for Kodi below 20 (Leia and below)
+1.0.23
+- Fix Globoplay excerpts nos showing
+1.0.22
+- Individual Globo login service id for Canais Globo and Globoplay
+- Code bug fixes
 1.0.21
 - Fix version number
 - Restored adult filter setting
